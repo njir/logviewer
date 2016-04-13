@@ -11,8 +11,10 @@ read_line.on('readable', function() {
             time: arr[0],
             type: arr[1],
             event_id: arr[2]
-                // ... add
+            // ... add
         }
         console.log(strJson)
+        // strJson to Graph using kibana
+        // so have to use elastic search
     }
 })
